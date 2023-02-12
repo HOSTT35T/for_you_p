@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(24, 1, 23);
+}
+@keyframes animacja {
+    0% {transform: scale(1.1) rotate(1.7deg);}
+    20% {transform: scale(1.4) rotate(-1.7deg);}
+    50% {transform: scale(1.2) rotate(1.5deg);}
+    70% {transform: scale(1.4) rotate(-2deg);}
+    100% {transform: scale(1.1) rotate(1.7deg);}
+}
+#p1 {
+    position: fixed;
+    top: 50%;
+    width: 100%;
+
+    text-align: center;
+    color: rgba(102, 6, 102, 0.356);
+
+    animation-name: animacja;
+    animation-duration: 1.05s;
+    animation-iteration-count: infinite;
+    animation-delay: -0.6s;
+
+    font-size: 470%;
+    margin: 0px;
+    margin-top: 1.2px;
+    
+
+    z-index: 2;
+}
+#p2 {
+    position: fixed;
+    top: 50%;
+    width: 100%;
+
+    text-align: center;
+    color: #973bf3;
+
+    animation-name: animacja;
+    animation-duration: 1.05s;
+    animation-iteration-count: infinite;
+
+    font-size: 490%;
+    margin: 0px;
+
+    z-index: 1;
+}
+#p3 {
+    position: fixed;
+    top: 50%;
+    width: 100%;
+
+    text-align: center;
+    color: rgb(124, 8, 74);
+
+    animation-name: animacja;
+    animation-duration: 1.05s;
+    animation-iteration-count: infinite;
+    animation-delay: -0.9s;
+
+    font-size: 120%;
+    margin: 0px;
+
+    z-index: 1;
+}
+#p4 {
+    position: fixed;
+    top: 50%;
+    width: 100%;
+
+    text-align: center;
+    color: rgba(53, 1, 30, 0.673);
+
+    animation-name: animacja;
+    animation-duration: 1.05s;
+    animation-iteration-count: infinite;
+    animation-delay: -0.9s;
+
+    font-size: 120%;
+    margin: 0px;
+    margin-top: 35px;
+
+    z-index: 3;
+}
